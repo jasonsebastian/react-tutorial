@@ -195,7 +195,7 @@ For example, this will not re-render a component.
 // Wrong
 this.state.comment = 'Hello';
 ```
-- Instead, use `setState()`:
+Instead, use `setState()`:
 ```js
 // Correct
 this.setState({comment: 'Hello'});
